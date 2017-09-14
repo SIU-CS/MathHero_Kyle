@@ -162,39 +162,6 @@ public abstract class ListeningGameComponent extends GameComponent implements Mo
 
 	/**
 	 * Returns weather a mouse button is pressed.
-	 * @param	b	button number
-	 * @return	true if the button is pressed
-	 */
-	public boolean isMousePressed(int b)
-	{
-		if(b == 1)
-			return mousePressed1;
-		else if(b == 2)
-			return mousePressed2;
-		else if(b == 3)
-			return mousePressed3;
-
-		return false;
-	}
-
-	/**
-	 * Returns weather any mouse button is pressed.
-	 * @return	true if the button is pressed
-	 */
-	public boolean isMousePressed()
-	{
-		if(mousePressed1)
-			return mousePressed1;
-		else if(mousePressed2)
-			return mousePressed2;
-		else if(mousePressed3)
-			return mousePressed3;
-
-		return false;
-	}
-
-	/**
-	 * Returns weather a mouse button is pressed.
 	 * @param	k	the key pressed (Ex. "A", "B", "C"...")
 	 * @return	true if the key is pressed
 	 */
