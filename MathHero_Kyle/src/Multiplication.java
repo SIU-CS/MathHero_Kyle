@@ -9,14 +9,4 @@ public class Multiplication extends Enemy
 		problem = n1+"*"+n2;
 		radius = 8;
 	}
-
-	public String getProblem()
-	{
-		return problem;
-	}
-
-	public int getSolution()
-	{
-		return solution;
-	}
 }

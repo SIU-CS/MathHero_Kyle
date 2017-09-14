@@ -10,14 +10,4 @@ public class Division extends Enemy
 		radius = 8;
 		color = java.awt.Color.RED;
 	}
-
-	public String getProblem()
-	{
-		return problem;
-	}
-
-	public int getSolution()
-	{
-		return solution;
-	}
 }

@@ -9,14 +9,4 @@ public class Addition extends Enemy
 		problem = n1+"+"+n2;
 		radius = 5;
 	}
-
-	public String getProblem()
-	{
-		return problem;
-	}
-
-	public int getSolution()
-	{
-		return solution;
-	}
 }

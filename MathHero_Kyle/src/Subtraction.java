@@ -10,14 +10,4 @@ public class Subtraction extends Enemy
 		color = java.awt.Color.RED;
 		radius = 5;
 	}
-
-	public String getProblem()
-	{
-		return problem;
-	}
-
-	public int getSolution()
-	{
-		return solution;
-	}
 }

@@ -88,9 +88,15 @@ public abstract class Enemy
 		}
 	}
 	
+	public String getProblem()
+	{
+		return problem;
+	}
 
-	public abstract String getProblem();
-	public abstract int getSolution();
+	public int getSolution()
+	{
+		return solution;
+	}
 
 	public void draw(Graphics g)
 	{
