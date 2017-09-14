@@ -6,7 +6,7 @@ public class BigMultiplication extends Enemy
 		int n1 = (int)(Math.random()*90)+10;
 		int n2 = (int)(Math.random()*90)+10;
 		solution = n1*n2;
-		problem = ""+n1+"*"+n2;
+		problem = n1+"*"+n2;
 		radius = 20;
 	}
 
