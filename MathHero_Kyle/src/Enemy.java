@@ -10,6 +10,8 @@ public abstract class Enemy
 	private boolean dead = false;
 	private int alpha = 255;
 	private int arrowR = Util.PLAYER_RADIUS+Util.ARROW_LENGTH;
+	protected String problem;
+	protected int solution;
 
 	public Enemy(double speed)
 	{
@@ -85,6 +87,7 @@ public abstract class Enemy
 				dying2 = true;
 		}
 	}
+	
 
 	public abstract String getProblem();
 	public abstract int getSolution();

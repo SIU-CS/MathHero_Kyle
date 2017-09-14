@@ -1,8 +1,5 @@
 public class Addition extends Enemy
 {
-	protected String problem;
-	protected int solution;
-
 	public Addition()
 	{
 		super(.6);

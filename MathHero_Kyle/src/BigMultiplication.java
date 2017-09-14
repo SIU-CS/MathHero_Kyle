@@ -1,8 +1,5 @@
 public class BigMultiplication extends Enemy
 {
-	protected String problem;
-	protected int solution;
-
 	public BigMultiplication()
 	{
 		super(.05);

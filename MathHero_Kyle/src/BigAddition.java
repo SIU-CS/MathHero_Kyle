@@ -1,8 +1,5 @@
 public class BigAddition extends Enemy
 {
-	protected String problem;
-	protected int solution;
-
 	public BigAddition()
 	{
 		super(.3);

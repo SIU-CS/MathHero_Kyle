@@ -1,8 +1,5 @@
 public class Division extends Enemy
 {
-	protected String problem;
-	protected int solution;
-
 	public Division()
 	{
 		super(.3);
