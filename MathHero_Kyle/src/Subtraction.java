@@ -11,6 +11,7 @@ public class Subtraction extends Enemy
 		solution = n1;
 		problem = ""+(n1+n2)+"-"+n2;
 		color = java.awt.Color.RED;
+		radius = 5;
 	}
 
 	public String getProblem()
