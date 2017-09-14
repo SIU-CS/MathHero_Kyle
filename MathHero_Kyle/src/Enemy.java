@@ -4,7 +4,7 @@ public abstract class Enemy
 {
 	protected double r,t,speed;
 	protected Color color = Color.BLACK;
-	protected int radius = 5;
+	protected int radius;
 	private boolean dying1 = false;
 	private boolean dying2 = false;
 	private boolean dead = false;
