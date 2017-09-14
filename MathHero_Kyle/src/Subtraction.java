@@ -1,8 +1,5 @@
 public class Subtraction extends Enemy
 {
-	protected String problem;
-	protected int solution;
-
 	public Subtraction()
 	{
 		super(.4);
