@@ -4,12 +4,14 @@ public abstract class Enemy
 {
 	protected double r,t,speed;
 	protected Color color = Color.BLACK;
-	protected int radius = 5;
+	protected int radius;
 	private boolean dying1 = false;
 	private boolean dying2 = false;
 	private boolean dead = false;
 	private int alpha = 255;
 	private int arrowR = Util.PLAYER_RADIUS+Util.ARROW_LENGTH;
+	protected String problem;
+	protected int solution;
 
 	public Enemy(double speed)
 	{
@@ -85,9 +87,16 @@ public abstract class Enemy
 				dying2 = true;
 		}
 	}
+	
+	public String getProblem()
+	{
+		return problem;
+	}
 
-	public abstract String getProblem();
-	public abstract int getSolution();
+	public int getSolution()
+	{
+		return solution;
+	}
 
 	public void draw(Graphics g)
 	{
