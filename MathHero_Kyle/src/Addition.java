@@ -8,5 +8,6 @@ public class Addition extends Enemy
 		solution = n1+n2;
 		problem = n1+"+"+n2;
 		radius = 5;
+		int x7=72;
 	}
 }
